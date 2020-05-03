@@ -1,0 +1,409 @@
+body {
+    background-color: #152343;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar {
+    margin: 0px;
+    width: 100%;
+}
+
+.navbar ul li {
+    margin: 1px;
+}
+
+.navbar ul li a {
+    color: #97ca47;
+}
+
+.navbar ul li a:hover {
+    color: #e8eaec;
+}
+
+.navbar ul li:first-child {
+    background-color: #10192d;
+}
+
+.dropdown .dropdown-menu {
+    background-color: #3C72A8;
+    color: #97CA47;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+.item .banner {
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 250px;
+    object-fit: cover;
+    position: relative;
+}
+
+.topImageText {
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    background-color: #08081db8;
+    margin: auto;
+    display: block;
+    padding: 25px 0px;
+}
+
+.cloulds {
+    background-image: url("img/home_03.jpg");
+}
+
+.containerInner {
+    margin: 10px;
+}
+
+.darkBlue {
+    color: #86e08b;
+}
+
+.VDlogo img {
+    border-radius: 50%;
+    background-color: #def5ff;
+    padding: 4px;
+}
+
+
+/******************************END OF NAVBAR************************************************/
+
+.soc {
+    background-color: #97CA47;
+    padding: 20px;
+}
+
+.leftSoc {
+    color: white;
+    font-size: 30px;
+}
+
+.leftSoc {
+    padding-left: 0px;
+}
+
+.rightSoc {
+    text-align: right;
+}
+
+#soc {
+    padding: 7px;
+}
+
+#btnImg {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+/******************************END OF SOC************************************************/
+
+.office {
+    background-color: #97CA47;
+    margin-top: 10px;
+    color: #0E3259;
+}
+
+#officeImg {
+    width: 100%;
+    height: auto;
+}
+
+.office .officeT ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0px;
+    max-width: 500px;
+}
+
+.office .officeT ul li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+.office .officeT ul li:before {
+    content: "• ";
+    color: #0E3259;
+}
+
+.pButtons {
+    text-align: right;
+}
+
+
+/******************************END OF OFFICE************************************************/
+
+.Ulists {
+    background-color: white;
+    margin-top: 20px;
+    color: #0E3259;
+    padding: 0px;
+}
+
+.Ulists h2 {
+    text-align: center;
+}
+
+.Ulists ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.Ulists ul li .glyphicon-ok {
+    margin-right: 5px;
+}
+
+.parent-element {
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    background-color: #152343;
+}
+
+.element1 {
+    background-color: #97CA47;
+    padding: 20px 0px;
+    margin: 10px 20px;
+}
+
+.element2 {
+    background-color: #97CA47;
+    margin: 10px 20px;
+    padding: 20px 0px;
+}
+
+.element3 {
+    background-color: #97CA47;
+    padding: 20px 0px;
+    margin: 10px 20px;
+}
+
+
+/******************************END OF Ulists************************************************/
+
+.info {
+    background-color: white;
+    margin-top: 20px;
+    color: #0E3259;
+    padding: 0px;
+}
+
+.about {
+    background-color: #97CA47;
+    margin-right: 7.5px;
+}
+
+.usefully {
+    background-color: #97CA47;
+    margin-left: 7.5px;
+}
+
+.read-more-trigger {
+    background-color: #3C86B3;
+}
+
+.usefully img,
+.usefully h4 {
+    padding-left: 0px;
+}
+
+.read-more-trigger:hover {
+    background-color: #3c86b3c2;
+}
+
+
+/******************************START OF READ MORE************************************************/
+
+.read-more-state {
+    display: none;
+}
+
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+
+.read-more-state:checked~.read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+
+.read-more-state~.read-more-trigger:before {
+    content: 'Show more';
+}
+
+.read-more-state:checked~.read-more-trigger:before {
+    content: 'Show less';
+}
+
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #000;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+}
+
+
+/******************************END OF READ MORE************************************************/
+
+.usefully h4 {
+    margin-bottom: 30px;
+}
+
+
+/******************************END OF Info************************************************/
+
+.footer {
+    width: 100%;
+    margin-top: 20px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#152343+0,152343+19,152343+45,97ca47+100,97ca47+100,97ca47+100,97ca47+100 */
+    background: #152343;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #152343 0%, #152343 19%, #152343 45%, #97ca47 100%, #97ca47 100%, #97ca47 100%, #97ca47 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #152343 0%, #152343 19%, #152343 45%, #97ca47 100%, #97ca47 100%, #97ca47 100%, #97ca47 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #152343 0%, #152343 19%, #152343 45%, #97ca47 100%, #97ca47 100%, #97ca47 100%, #97ca47 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#152343', endColorstr='#97ca47', GradientType=0);
+    /* IE6-9 */
+}
+
+.AlinaLogo {
+    max-width: 30px;
+}
+
+.AlinaLogo img {
+    width: 100%;
+}
+
+.footerText {
+    position: relative;
+    width: 79%;
+    display: inline-block;
+    color: white;
+}
+
+.footer .container-fluid {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.swiper-slide {
+    width: 80%;
+    text-align: left;
+}
+
+
+/******************************END OF FOOTER************************************************/
+
+@media(max-width:710px) {
+    body {
+        text-align: center;
+    }
+    .office .officeT {
+        padding: 0px;
+    }
+    .parent-element {
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px;
+        display: block;
+    }
+    .about {
+        margin-right: 0px;
+    }
+    .usefully {
+        margin-left: 0px;
+    }
+    .element2 {
+        margin: 0px;
+    }
+    .AlinaLogo {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+    .footerText {
+        position: relative;
+        top: 50%;
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+    }
+    .footer .container-fluid {
+        text-align: center;
+    }
+    /******************************END OF Ulists************************************************/
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: #538fc37a;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: #538fc333;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: #e5e9ec1c;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
+
+.swiper-wrapper p {
+    max-width: 500px;
+}
+
+@media(max-width:768px) {
+    .swiper-container {
+        width: 300px;
+        height: 370px;
+    }
+}
+
+@media(max-width:425px) {
+    .swapMob {
+        display: flex;
+        flex-direction: column;
+    }
+    .swapMob .item {
+        order: 2;
+    }
+    .swapMob .navBar {
+        order: 1;
+    }
+}
+
+@media(max-width:320px) {
+    .swiper-container {
+        width: 237px;
+        height: 370px;
+    }
+}
