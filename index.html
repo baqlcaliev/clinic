@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Alina Design eXercise</title>
@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="bootstrap-3.3.7-dist/js/jquery-3.1.0.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="Style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+
 </head>
 
 <body>
@@ -62,15 +63,15 @@
                 </div>
             </nav>
         </div>
-        <div class="col-md-12 soc">
+        <div class="col-md-12 soc-header">
             <div class="col-md-6 leftSoc">
-                <img src="img/telephone.jpg" width="50" height="50" alt="1" id="soc">0898 920 906
+                <img src="img/telephone.jpg" alt="1" class="soc">0898 920 906
             </div>
             <div class="col-md-6 rightSoc">
-                <img src="img/gMaps.jpg" width="50" height="50" alt="1" id="soc">
-                <img src="img/youtube.jpg" width="50" height="50" alt="1" id="soc">
-                <img src="img/g.jpg" width="50" height="50" alt="1" id="soc">
-                <img src="img/facebook.jpg" width="50" height="50" alt="1" id="soc">
+                <img src="img/gMaps.jpg" alt="1" class="soc">
+                <img src="img/youtube.jpg" alt="1" class="soc">
+                <img src="img/g.jpg" alt="1" class="soc">
+                <img src="img/facebook.jpg" alt="1" class="soc">
                 <button type="button" class="btn btn-primary">Primary</button>
             </div>
         </div>
@@ -81,45 +82,33 @@
             </div>
             <div class="col-md-8">
                 <div class="officeT">
-                    <!-- Slider main container -->
-                    <div class="swiper-container">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <h2><strong>ЗЛАТНОТО НИ СЕЧЕНИЕ</strong></h2>
-                                <p>Ние от денонощен холистичен стоматологичен център "Бодра Дентал" се грижим за това нашите пациенти винаги да се усмихват със самочувствие, защото:</p>
-                            </div>
-                            <div class="swiper-slide">
-                                <ul>
-                                    <li>изповядваме философията на все по-популярната Холистична медицина и стоматология - мотото ни е "Минимална намеса с максимален ефект!"</li>
-                                    <li>нашите стоматологични материали са подбрани сред топ продуктите от "Reality" - еталонът за качество по целия свят...</li>
-                                </ul>
-                            </div>
-                            <div class="swiper-slide">
-                                <h2><strong>Какво е Lorem Ipsum?</strong></h2>
-                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква,
-                                    за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването</p>
-                            </div>
-                            ...
+                    <!-- Additional required wrapper -->
+                    <div class="sliderche">
+                        <!-- Slides -->
+                        <div class="slide-1">
+                            <h2><strong>ЗЛАТНОТО НИ СЕЧЕНИЕ</strong></h2>
+                            <p>Ние от денонощен холистичен стоматологичен център "Бодра Дентал" се грижим за това нашите пациенти винаги да се усмихват със самочувствие, защото:</p>
                         </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
-
-                        <!-- If we need navigation buttons 
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                            -->
-                        <!-- If we need scrollbar -->
-                        <div class="swiper-scrollbar"></div>
-
+                        <div class="slide-2">
+                            <h2><strong>Lorem Ipsum?</strong></h2>
+                            <ul>
+                                <li>Изповядваме философията на все по-популярната Холистична медицина и стоматология - мотото ни е "Минимална намеса с максимален ефект!"</li>
+                                <li>Нашите стоматологични материали са подбрани сред топ продуктите от "Reality" - еталонът за качество по целия свят...</li>
+                            </ul>
+                        </div>
+                        <div class="slide-3">
+                            <h2><strong>Какво е Lorem Ipsum?</strong></h2>
+                            <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква,
+                                за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването</p>
+                        </div>
+                        ...
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-12 Ulists">
             <div class="parent-element">
-                <div class="element1 col-md-4">
+                <div class="elements col-md-4">
                     <h2><strong>УСЛУГИ</strong></h2>
                     <ul>
                         <li><span class="glyphicon glyphicon-ok"></span>Обстоен преглед</li>
@@ -134,7 +123,7 @@
                     </ul>
                 </div>
 
-                <div class="element2 col-md-4">
+                <div class="elements col-md-4">
                     <h2><strong>ЕСТЕТИКА</strong></h2>
                     <ul>
                         <li><span class="glyphicon glyphicon-ok"></span>Естественост</li>
@@ -148,7 +137,7 @@
                     </ul>
                 </div>
 
-                <div class="element3 col-md-4">
+                <div class="elements col-md-4">
                     <h2><strong>ХОЛИСТИКА</strong></h2>
                     <ul>
                         <li><span class="glyphicon glyphicon-ok"></span>Психология</li>
@@ -192,32 +181,19 @@
         <div class="container-fluid">
             <div class="footerText">Денонощна Стоматологична Холистична Клиника</div>
             <div class="AlinaLogo">
-                <a href="#" target="_blank"><img src="img/VD.png" alt="1" id="image"></a>
+                <a href="#" target="_blank"><img src="img/VD.png" alt="1"></a>
             </div>
         </div>
     </div>
     <script>
-        var mySwiper = new Swiper('.swiper-container', {
-            // Optional parameters
-            direction: 'vertical',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-        })
+        $('.sliderche').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            arrows: false
+        });
     </script>
 </body>
 

@@ -29,7 +29,7 @@ body {
 }
 
 .dropdown .dropdown-menu {
-    background-color: #3C72A8;
+    background-color: #152343;
     color: #97CA47;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .cloulds {
-    background-image: url("img/home_03.jpg");
+    background-image: url("../img/home_03.jpg");
 }
 
 .containerInner {
@@ -77,14 +77,22 @@ body {
 
 /******************************END OF NAVBAR************************************************/
 
-.soc {
+.soc-header {
     background-color: #97CA47;
-    padding: 20px;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soc {
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
 }
 
 .leftSoc {
     color: white;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .leftSoc {
@@ -92,76 +100,63 @@ body {
 }
 
 .rightSoc {
-    text-align: right;
+    text-align: left;
+    padding-left: 0px;
 }
 
-#soc {
-    padding: 7px;
-}
 
+}
 #btnImg {
     border-radius: 50%;
     margin-right: 5px;
 }
 
-
 /******************************END OF SOC************************************************/
-
 .office {
     background-color: #97CA47;
     margin-top: 10px;
     color: #0E3259;
+    padding: 40px 0px;
 }
-
 #officeImg {
     width: 100%;
     height: auto;
 }
-
 .office .officeT ul {
     list-style: none;
     padding: 0;
     margin: 20px 0px;
     max-width: 500px;
 }
-
 .office .officeT ul li {
     padding-left: 1em;
     text-indent: -.7em;
 }
-
 .office .officeT ul li:before {
     content: "• ";
     color: #0E3259;
 }
-
 .pButtons {
     text-align: right;
 }
 
-
 /******************************END OF OFFICE************************************************/
-
 .Ulists {
     background-color: white;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #0E3259;
     padding: 0px;
 }
-
 .Ulists h2 {
     text-align: center;
 }
-
 .Ulists ul li {
     list-style: none;
     text-align: left;
 }
-
 .Ulists ul li .glyphicon-ok {
     margin-right: 5px;
 }
-
 .parent-element {
     height: auto;
     width: 100%;
@@ -169,86 +164,62 @@ body {
     display: flex;
     background-color: #152343;
 }
-
-.element1 {
+.elements {
     background-color: #97CA47;
     padding: 20px 0px;
-    margin: 10px 20px;
+    margin: 0px 20px;
 }
-
-.element2 {
-    background-color: #97CA47;
-    margin: 10px 20px;
-    padding: 20px 0px;
-}
-
-.element3 {
-    background-color: #97CA47;
-    padding: 20px 0px;
-    margin: 10px 20px;
-}
-
 
 /******************************END OF Ulists************************************************/
-
 .info {
     background-color: white;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #0E3259;
     padding: 0px;
 }
-
+.about,
+.usefully {
+    padding: 30px 20px;
+}
 .about {
     background-color: #97CA47;
-    margin-right: 7.5px;
 }
-
 .usefully {
     background-color: #97CA47;
-    margin-left: 7.5px;
+    margin-left: 40px;
 }
-
 .read-more-trigger {
     background-color: #3C86B3;
 }
-
 .usefully img,
 .usefully h4 {
     padding-left: 0px;
 }
-
 .read-more-trigger:hover {
     background-color: #3c86b3c2;
 }
 
-
 /******************************START OF READ MORE************************************************/
-
 .read-more-state {
     display: none;
 }
-
 .read-more-target {
     opacity: 0;
     max-height: 0;
     font-size: 0;
     transition: .25s ease;
 }
-
 .read-more-state:checked~.read-more-wrap .read-more-target {
     opacity: 1;
     font-size: inherit;
     max-height: 999em;
 }
-
 .read-more-state~.read-more-trigger:before {
     content: 'Show more';
 }
-
 .read-more-state:checked~.read-more-trigger:before {
     content: 'Show less';
 }
-
 .read-more-trigger {
     cursor: pointer;
     display: inline-block;
@@ -260,89 +231,73 @@ body {
     border-radius: .25em;
 }
 
-
 /******************************END OF READ MORE************************************************/
-
 .usefully h4 {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
+    margin-top: -2px;
 }
 
-
 /******************************END OF Info************************************************/
-
 .footer {
     width: 100%;
     margin-top: 20px;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#152343+0,152343+19,152343+45,97ca47+100,97ca47+100,97ca47+100,97ca47+100 */
-    background: #152343;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #152343 0%, #152343 19%, #152343 45%, #97ca47 100%, #97ca47 100%, #97ca47 100%, #97ca47 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #152343 0%, #152343 19%, #152343 45%, #97ca47 100%, #97ca47 100%, #97ca47 100%, #97ca47 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #152343 0%, #152343 19%, #152343 45%, #97ca47 100%, #97ca47 100%, #97ca47 100%, #97ca47 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#152343', endColorstr='#97ca47', GradientType=0);
-    /* IE6-9 */
+    background-color: #293550;
 }
-
 .AlinaLogo {
     max-width: 30px;
 }
-
 .AlinaLogo img {
     width: 100%;
 }
-
 .footerText {
     position: relative;
     width: 79%;
     display: inline-block;
     color: white;
+    line-height: 30px;
 }
-
 .footer .container-fluid {
     width: 97%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 20px 15px;
 }
-
-.swiper-slide {
-    width: 80%;
-    text-align: left;
-}
-
 
 /******************************END OF FOOTER************************************************/
-
 @media(max-width:710px) {
     body {
         text-align: center;
     }
+    
     .office .officeT {
         padding: 0px;
     }
+    
     .parent-element {
         width: 100%;
         margin: 0px auto;
         padding: 0px;
         display: block;
     }
+    
     .about {
         margin-right: 0px;
     }
+    
     .usefully {
         margin-left: 0px;
     }
-    .element2 {
+    
+    .elements {
         margin: 0px;
     }
+    
     .AlinaLogo {
         text-align: center;
         width: 100%;
         display: inline-block;
     }
+    
     .footerText {
         position: relative;
         top: 50%;
@@ -350,60 +305,72 @@ body {
         display: inline-block;
         margin: auto;
     }
+    
     .footer .container-fluid {
         text-align: center;
     }
     /******************************END OF Ulists************************************************/
 }
-
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
     background-color: #538fc37a;
 }
-
 .nav>li>a:focus,
 .nav>li>a:hover {
     background-color: #538fc333;
 }
-
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
     background-color: #e5e9ec1c;
 }
-
-.swiper-container {
-    width: 600px;
-    height: 300px;
-}
-
-.swiper-wrapper p {
-    max-width: 500px;
-}
-
-@media(max-width:768px) {
-    .swiper-container {
-        width: 300px;
-        height: 370px;
+@media(max-width:991px) {
+    .usefully img,
+    #officeImg {
+        margin: 10px 0px;
+    }
+    
+    .info {
+        margin: 10px 0px;
+    }
+    
+    .usefully,
+    .office,
+    .Ulists {
+        margin: 20px 0px;
+    }
+    
+    .parent-element {
+        flex-direction: column;
+    }
+    
+    .parent-element .elements {
+        margin: 0px;
     }
 }
-
 @media(max-width:425px) {
     .swapMob {
         display: flex;
         flex-direction: column;
     }
+    
     .swapMob .item {
         order: 2;
     }
+    
     .swapMob .navBar {
         order: 1;
     }
 }
-
 @media(max-width:320px) {
     .swiper-container {
         width: 237px;
         height: 370px;
     }
+}
+.slick-dots {
+    display: flex;
+}
+.sliderche h2 {
+    margin-top: -2px;
 }
